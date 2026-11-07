@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pet Market Club - E-commerce Platform
 
-## Getting Started
+Repositorio principal de la plataforma de e-commerce de **Pet Market Club**. 
 
-First, run the development server:
+Este proyecto es una solución integral (Frontend + Backoffice) diseñada específicamente para la venta de artículos veterinarios. El sistema prioriza una experiencia de usuario amigable mediante un catálogo estructurado y un asistente de recomendación, a la vez que proporciona herramientas administrativas robustas para el control de negocio.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Características Principales (Features)
+- **Catálogo Inteligente:** Gestión de productos individuales y creación dinámica de combos/kits.
+- **Trazabilidad de Stock:** Sistema estricto de inventario que solo permite ingresos vía factura de proveedor y extracciones justificadas.
+- **Checkout Integrado:** Procesamiento de pagos seguro a través de Mercado Pago y cálculo de costos de envío.
+- **Dashboard Administrativo:** Panel de control personalizado para gestionar pedidos, actualizar estados y moderar reseñas.
+- **Facturación Automática:** Generación de comprobantes en PDF y envío por correo electrónico al confirmar la compra.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Stack Tecnológico
+- **Frontend / UI:** Next.js, React, Tailwind CSS (o la librería que elijas).
+- **Backend / CMS:** Strapi (Node.js).
+- **Base de Datos:** PostgreSQL.
+- **Pasarela de Pago:** Mercado Pago SDK.
