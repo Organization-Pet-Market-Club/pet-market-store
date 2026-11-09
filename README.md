@@ -12,7 +12,21 @@ Este proyecto es una solución integral (Frontend + Backoffice) diseñada espec�
 - **Facturación Automática:** Generación de comprobantes en PDF y envío por correo electrónico al confirmar la compra.
 
 ## Stack Tecnológico
-- **Frontend / UI:** Next.js, React, Tailwind CSS (o la librería que elijas).
-- **Backend / CMS:** Strapi (Node.js).
-- **Base de Datos:** PostgreSQL.
+- **Frontend / UI:** Next.js 16.4.5 (App Router), React 19.3.0, Tailwind CSS v4, TypeScript 5.
+- **Backend / CMS:** Strapi v5.61.0 (Node.js >= 22).
+- **Base de Datos:** PostgreSQL 16.
 - **Pasarela de Pago:** Mercado Pago SDK.
+
+## Instalación y Configuración Local
+```bash
+# Instalar dependencias
+npm install
+
+# Configurar variables de entorno locales
+cp .env.example .env.local
+# Verificar que .env.local defina:
+# NEXT_PUBLIC_STRAPI_URL=http://127.0.0.1:1337
+
+# Iniciar servidor de desarrollo
+npm run dev
+```
